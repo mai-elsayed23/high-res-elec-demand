@@ -9,5 +9,5 @@ rioxarray==0.18.2
 rtree==1.4.0
 scipy==1.13.1
 shapely==2.0.7
-sklearn
+scikit-learn==1.6.1
 mapclassify==2.8.1
