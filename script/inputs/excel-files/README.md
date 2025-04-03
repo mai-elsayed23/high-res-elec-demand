@@ -1,0 +1,12 @@
+Other required input files include Excel files for the development of socioeconomic indicators under different scenarios, as well as historical figures for the correlation between electricity demand and income level.
+
+For the Namibian illustrative case study, the Shared Socioeconomic Pathways have been used for the projection of population and total gross domestic product (GDP) until 2050. Users are free to use other socioeconomic development scenarios as long as they follow the same format as the files attached here.
+
+To derive the correlation between residential electricity demand and income level, historical figures for GDP per capita and electric power consumption per capita (all sectors) have been obtained from World Bank Data, while figures for total electricity consumption and residential electricity consumption have been obtained from the International Energy Agency's (IEA) Energy Statistics Data Browser. Further information about data sources can be found in the file's **Metadata** tab. Users are advised not to make any changes to this file.
+
+#### Details of input datasets
+|Dataset|Type|Spatial extent|Spatial resolution|Temporal resolution|Selected year(s)|Model|Scenarios|Unit|Source(s)|Filename(s) in this folder|
+|-------|----|--------------|------------------|-------------------|----------------|-----|---------|----|------|--------------------------|
+|National population count projections|Tabular data|Global (200 countries)|National|Annual for 2020-2100|5-year intervals for 2025-2050|IIASA-WiC POP 2023|SSP 1-5|Million|[SSP Scenario Explorer](https://data.ece.iiasa.ac.at/ssp)|SSP1_POP_2025_2100_AllCountries.xlsx, SSP2_POP_2025_2100_AllCountries.xlsx, SSP3_POP_2025_2100_AllCountries.xlsx, SSP4_POP_2025_2100_AllCountries.xlsx, SSP5_POP_2025_2100_AllCountries.xlsx|
+|National total GDP (PPP) projections|Tabular data|Global (186 countries)|National|Annual for 2025-2100|5-year intervals for 2025-2050|IIASA GDP 2023|SSP 1-5|Billion constant 2017 international USD|[SSP Scenario Explorer](https://data.ece.iiasa.ac.at/ssp)|SSP1_GDP_2025_2100_AllCountries.xlsx, SSP2_GDP_2025_2100_AllCountries.xlsx, SSP3_GDP_2025_2100_AllCountries.xlsx, SSP4_GDP_2025_2100_AllCountries.xlsx, SSP5_GDP_2025_2100_AllCountries.xlsx|
+|Global electricity demand & income level correlation|Tabular data|Global (135 countries)|National|Annual|2014|N/A|N/A|Varies|World Bank, IEA|res_elec_gdp_corr_2015.xlsx|
