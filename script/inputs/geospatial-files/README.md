@@ -6,6 +6,8 @@ Generally, the required input files are as follows:
 
 **N.B.** The coordinate reference system for all geospatial files should be WGS84.
 
+**N.B.B.** The files uploaded here to the **inputs/geospatial-files** folder are for the Namibian illustrative case study. Files for other study regions can be downloaded from the sources listed below. Except for the study region borders, the other files cover the entire globe. The user can then clip them to the desired study region using that region's administrative borders, and then upload them to be used as inputs in the main script.
+
 #### Details of input datasets
 |Dataset|Type|Spatial extent|Spatial resolution|Temporal resolution|Selected year|Unit|Source|Filename(s) in this folder|
 |-------|----|-------------|------------------|-------------------|-------------|----|------|-----------------------|
