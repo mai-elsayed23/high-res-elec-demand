@@ -14,7 +14,7 @@ After downloading the main script and package_requirements file, the user is adv
 1. Download and install Microsoft Visual Studio Code; [download link](https://code.visualstudio.com/download).
 2. Click on **File** in the upper left Menu Bar and select **Open Folder**.
 3. From the pop up window that appears, browse to the folder containing the main script, the requirements text file, and all other necessary input files. Click **Select Folder**. All the folder contents should now appear in the **Explorer** side bar on the left.
-4. Double click on the main script titled **high-res-elec-demand.ipynb** to open it.
+4. Double click on the main script (Python notebook) titled **high-res-elec-demand.ipynb** to open it.
 5. Press **Ctrl+Shift+P** to open the Command Palette.
 6. Search for **Python: Create Environment** and select that command.
 7. Select **Conda** from the drop-down list of environment types.
