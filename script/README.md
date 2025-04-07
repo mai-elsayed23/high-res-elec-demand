@@ -7,7 +7,7 @@ All required input files can be found under the **inputs** folder in the main di
 
 Namibia is used as an illustrative case study, but the script can be modified to model other countries/study regions.
 
-Output maps and figures from the Namibian case study can be found under the **outputs_Namibia** folder in the main directory. Again, a separate README file can be found inside the folder describing the format and contents of each of the files.
+Output maps and figures from the Namibian case study can be found under the **outputs_Namibia** folder in the main directory. Again, a separate README file can be found inside each of the sub-folders describing the format and contents of each of the files.
 
 ### How to run the script
 After downloading the main script and package_requirements file, the user is advised to follow these steps when running the script for the first time:
