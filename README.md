@@ -1,6 +1,6 @@
 # Spatio-temporal projection of electricity demand for previously un-electrified populations
 This repository contains the Apache-2.0 licensed source code for a novel method developed to estimate and project the electricity demand of previously un-electrified populations using a high spatiotemporal resolution.
-The original conference paper outlines the complete method and all data sources used (link to the paper will be provided here once it is available).
+The original conference paper outlines the complete method and all data sources used; [link to the paper](https://urn.fi/URN:NBN:fi-fe2025100699956).
 
 ## Getting the source code
 There are two recommended options for getting and working with the source code.
