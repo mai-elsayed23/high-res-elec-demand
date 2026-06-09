@@ -9,7 +9,7 @@ Namibia is used as an illustrative case study, but the script can be modified to
 
 Output maps and figures from the Namibian case study can be found in the four **output** folders, corresponding to different steps in the workflow. Again, a separate README file can be found inside each of the folders describing the format and contents of each of the files.
 
-### How to run the script: Option 1
+### How to run the scripts: Option 1
 After downloading the main script and package_requirements file, the user is advised to follow these steps when running the script for the first time:
 1. Download and install Microsoft Visual Studio Code; [download link](https://code.visualstudio.com/download).
 2. Click on **File** in the upper left Menu Bar and select **Open Folder**.
@@ -24,7 +24,7 @@ After downloading the main script and package_requirements file, the user is adv
 
 For subsequent runs using Microsoft Visual Studio Code, the user should use the same environment installed according to the above steps. This can be done via clicking on **Select Kernel** at the upper right corner of the open notebook and navigating to the right environment. When in doubt, the user can re-create the environment using the aforementioned steps.
 
-### How to run the script: Option 2
+### How to run the scripts: Option 2
 1. Download and install one of Anaconda's versions according to your operating system; [download link](https://www.anaconda.com/download).
 2. Download this repository directly to your local directory, or clone it using git.
 ```
@@ -50,3 +50,14 @@ For subsequent runs using Microsoft Visual Studio Code, the user should use the 
 7. A new session should start in a browser window, where you can navigate to each of the four scripts that make up this workflow.
 
 For subsequent runs using Anaconda Prompt, follow steps 3 >> 5 >> 6. Whenever the kernel is restarted, make sure to re-run the first cell in the script that imports all the required packages installed in the virtual environment.
+
+### Workflow order
+This workflow is divided into four steps, each with a corresponding Jupyter notebook. A more detailed description of each notebook's purpose, along with the required input files and expected output files, can be found in the notebooks themselves.
+#### Step 1:
+Preparation of all required socioeconomic indicators in the base year for the target study area, via "1_baseyear_prep.ipynb".
+#### Step 2 (optional):
+Validation of the developed methodology in terms of income distribution and electricity demand estimation in the base year, via "2_baseyear_validation.ipynb".
+#### Step 3:
+Projection of the basic socioeconomic indicators across all scenarios and modelled transition years, via "3_socioecon_projection.ipynb".
+#### Step 4:
+Projection of residential electricity demand for all populated cells based on the projected socioeconomic indicators, across all scenarios and years, via "4_elecdem_projection.ipynb"
